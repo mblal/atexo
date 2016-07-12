@@ -1,0 +1,6 @@
+services:
+    atexo.card_game.client:
+        class: CardGameBundle\Services\RestPost
+    atexo.service.flattener_array:
+        class: CardGameBundle\Common\ArrayFlattener
+

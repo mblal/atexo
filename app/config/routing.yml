@@ -1,0 +1,8 @@
+card_game:
+    resource: "@CardGameBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
